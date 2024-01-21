@@ -2,122 +2,36 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+# Quotes on Offensive AI: Automating manual, tedious and repetitive red teaming tasks
 
-[Link to another page](./another-page.html).
+> Machine learning can aid with passive recon, initial intrusion, C2 traffic, privilege escalation, internal recon, and lateral movement, says Max Heinemayer (Darktrace)
 
-There should be whitespace between paragraphs.
+Source: [“We Are Losing the War Against Offensive AI” (September 3, 2021)](https://www.coriniumintelligence.com/content/articles/we-are-losing-the-war-against-offensive-ai):
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+```
+“It's already not a fair game. The defenders are losing, and have been losing for the last 30 years,” says Heinemayer [Darktrace Director of Threat Hunting Max Heinemayer]
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+```
+“A lot of what hackers do is quite manual, tedious, and repetitive. And these are the bits that offensive AI can automate speed up,” Heinemeyer says. “And not only that, but existing attackers can scale up their attacks.”
 ```
 
-#### Header 4
+> The term ‘offensive AI’ describes the use of specific AI and machine learning algorithms to make cybercriminals more productive, efficient, and difficult to detect.  
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+```
+“When I say offensive AI, I mean machine learning algorithms either supervised or unsupervised, [like] deep learning and reinforcement learning being used to augment today's cyberattacks,” says Heinemeyer.
 
-##### Header 5
+Modern machine learning technologies can be widely used to improve the effectiveness of cyberattacks throughout the attack life cycle, according to Heinemeyer.
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+“[This includes] any piece of the attack life-cycle: initial reconnaissance, initial intrusion, command-and-control traffic, privilege escalation, internal reconnaissance, lateral movement. Any of these could be augmented by machine learning in one way or another.”
+```
 
-###### Header 6
+```
+“What we also know is that the legacy approach can't keep up. Because legacy tools are always retrospective. They are static and they are siloed. Mark my words: Solar Winds was the death knell for first-generation security tools,” he says.
+```
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
+> The answer, according to Heinemeyer, is to fight fire with fire – or more specifically, AI with AI.
+“For detection, we use unsupervised machine learning…”
 
 * * *
 
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
